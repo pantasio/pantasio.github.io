@@ -13,13 +13,18 @@
   </url>
   
   <url>
-    <loc>/post/first-post/</loc>
-    <lastmod>2019-10-18T13:14:45+00:00</lastmod>
+    <loc>/post/</loc>
+    <lastmod>2019-10-20T06:53:46+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/</loc>
-    <lastmod>2019-10-18T13:14:45+00:00</lastmod>
+    <loc>/post/xin-chao-hugo/</loc>
+    <lastmod>2019-10-20T06:53:46+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/post/first-post/</loc>
+    <lastmod>2019-10-20T06:14:44+00:00</lastmod>
   </url>
   
   <url>
@@ -68,12 +73,12 @@
   </url>
   
   <url>
-    <loc>/categories/golang/</loc>
+    <loc>/tags/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/golang/</loc>
+    <loc>/categories/golang/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   

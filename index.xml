@@ -33,12 +33,22 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
     </item>
     
     <item>
+      <title>Xin Chao Hugo</title>
+      <link>/post/xin-chao-hugo/</link>
+      <pubDate>Sun, 20 Oct 2019 06:53:46 +0000</pubDate>
+      
+      <guid>/post/xin-chao-hugo/</guid>
+      <description>blog thu 2 chung ta phai cai font cho container co can thiet cai Nvim khong nhi</description>
+    </item>
+    
+    <item>
       <title>First Post</title>
       <link>/post/first-post/</link>
-      <pubDate>Fri, 18 Oct 2019 13:14:45 +0000</pubDate>
+      <pubDate>Sun, 20 Oct 2019 06:14:44 +0000</pubDate>
       
       <guid>/post/first-post/</guid>
-      <description></description>
+      <description>This is my first post blog I try to write this blog with markdown syntax
+Xin chào hugo OMG tôi không thê vi�ết ti�ếng vi�ệt dư�ợc.</description>
     </item>
     
     <item>
