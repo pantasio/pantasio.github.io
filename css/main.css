@@ -381,7 +381,10 @@ a::before {
 
 a {
   position: relative;
+<<<<<<< HEAD
   font-size: 3rem;
+=======
+>>>>>>> 9c4271297aa7a71666ace912efbac6c452c26101
 }
 
 
@@ -427,4 +430,8 @@ a:hover::after {
   opacity: 1;
 }
  
+<<<<<<< HEAD
 */ 
+=======
+*/ 
+>>>>>>> 9c4271297aa7a71666ace912efbac6c452c26101
