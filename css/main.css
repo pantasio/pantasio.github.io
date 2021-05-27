@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #fff;
     --main-font-color: #313537;
-    --main-link-color: #0011ff;
+    --main-link-color: #ffcf40;
     --header-font-color: #333333;
     --header-link-color: #666666;
     --footer-link-color: #313537;
@@ -11,9 +11,9 @@
     --color-ko-fi: #dc3545;
     --color-bmc: #dc3545;
 
-    --font-title: "Raleway", sans-serif;
-    --font-code: "Menlo", monospace;
+    --font-code: "Fira Code", monospace;
     --font-content: "Merriweather", serif;
+    --font-title: "Merriweather Sans", sans-serif;
 }
 
 .badge-info {
@@ -25,7 +25,7 @@
     :root {
         --main-bg-color: #1a1a1a;
         --main-font-color: #f8f9fa;
-        --main-link-color: #17bf63;
+        --main-link-color: #0eb158;
         --header-font-color: #efefef;
         --header-link-color: #eaeaea;
         --footer-link-color: #aaa;
@@ -355,3 +355,76 @@ h6 {
         margin-right: 0;
     }
 }
+
+/* ========= link hover ========= */
+/* style1 */
+a::before {  
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+a:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+a::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  inset: 0 0 0 0;
+  background: #695c05;
+  z-index: -1;
+  transition: transform .3s ease;
+}
+
+a {
+  position: relative;
+  font-size: 3rem;
+}
+
+
+@media (orientation: landscape) {
+  body {
+    grid-auto-flow: column;
+  }
+  
+/* end style1 */
+ 
+ /* style2 
+ a::before {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+a:hover::before {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+a::after {
+  -webkit-transition: all 0.2s ease-out, -webkit-transform 0.2s cubic-bezier(0.1, 1.5, 0.21, 1);
+  -moz-transition: all 0.2s ease-out, -moz-transform 0.2s cubic-bezier(0.1, 1.5, 0.21, 1);
+  -o-transition: all 0.2s ease-out, -o-transform 0.2s cubic-bezier(0.1, 1.5, 0.21, 1);
+  transition: all 0.2s ease-out, transform 0.2s cubic-bezier(0.1, 1.5, 0.21, 1);
+  -webkit-transform: scale(0.1, 0.1);
+  -moz-transform: scale(0.1, 0.1);
+  -ms-transform: scale(0.1, 0.1);
+  -o-transform: scale(0.1, 0.1);
+  transform: scale(0.1, 0.1);
+  color: rgba(255, 255, 255, 0.9);
+}
+
+a:hover::after {
+  -webkit-transform: scale(1, 1);
+  -moz-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  -o-transform: scale(1, 1);
+  transform: scale(1, 1);
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+ 
+*/ 
