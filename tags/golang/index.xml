@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on pantasio - Lê Đức Hoàng</title>
+    <title>Golang on alaGeek Theme</title>
     <link>/tags/golang/</link>
-    <description>Recent content in golang on pantasio - Lê Đức Hoàng</description>
+    <description>Recent content in Golang on alaGeek Theme</description>
     <generator>Hugo -- gohugo.io</generator>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <copyright>Copyright © 2008–2021, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/golang/index.xml" rel="self" type="application/rss+xml" />
