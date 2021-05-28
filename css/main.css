@@ -1,7 +1,7 @@
 :root {
     --main-bg-color: #fff;
     --main-font-color: #313537;
-    --main-link-color: #ffcf40;
+    --main-link-color: #0eb158;
     --header-font-color: #333333;
     --header-link-color: #666666;
     --footer-link-color: #313537;
@@ -381,19 +381,16 @@ a::before {
 
 a {
   position: relative;
-<<<<<<< HEAD
-  font-size: 3rem;
-=======
->>>>>>> 9c4271297aa7a71666ace912efbac6c452c26101
 }
-
 
 @media (orientation: landscape) {
   body {
     grid-auto-flow: column;
   }
   
-/* end style1 */
+
+
+
  
  /* style2 
  a::before {
@@ -430,8 +427,4 @@ a:hover::after {
   opacity: 1;
 }
  
-<<<<<<< HEAD
 */ 
-=======
-*/ 
->>>>>>> 9c4271297aa7a71666ace912efbac6c452c26101
